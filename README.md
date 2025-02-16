@@ -6,7 +6,7 @@ Kelvin Vinicius Vieira Santos<br>
 Thiago Henrique Garcia da Paz<br>
 ## Um pouco sobre o trabalho e seu objetivo <b>:
 
-O algoritmo busca resolver o problema de atribuição , que consiste em encontrar a melhor maneira de atribuir um conjunto de tarefas a um conjunto de funcionarios, minimizando os custos.
+O algoritmo busca resolver o problema de atribuição , que consiste em encontrar uma maneira de atribuir um conjunto de tarefas a um conjunto de funcionarios, minimizando os custos.
 
 # Propósito e Aplicação
 

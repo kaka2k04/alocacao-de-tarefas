@@ -16,15 +16,15 @@ O principal propósito do algoritimo é melhorar a alocação de tarefas, otimiz
 Este programa em C atribui tarefas a funcionários de forma a otimizar o tempo total de execução. Ele lê uma matriz de tempos de um arquivo e utiliza um método guloso para designar cada tarefa ao funcionário mais eficiente disponível. O código aloca dinamicamente para listas e matrizes para armazenar os dados, garantindo que cada funcionário receba exatamente uma tarefa. Após o processamento de dados, o programa salva as atribuições e o tempo total em formato de arquivo txt com o nome escolhido pelo usuário. O programa gerencia a memória corretamente, evitando vazamentos, e fornece uma solução eficiente para o problema de alocação de tarefas.
 
 # Instruções para utilização do programa
-### O programa deve ser executado utilizando um compilador de linguagem C.
-### O arquivo a ser processado deve ser adicionado a pasta "output" no diretório do arquivo.
-### O arquivo do arquivo de entrada deve ser:
+### 1- O programa deve ser executado utilizando um compilador de linguagem C.
+### 2- O arquivo a ser processado deve ser adicionado a pasta "output" no diretório do arquivo.
+### 3- O arquivo do arquivo de entrada deve ser:
 
 Número de itens a serem atribuídos (n)
 para cada item i (i = 1, ..., n):
 o custo de atribuir item i ao item j (c (i, j), j = 1, ..., n)
 
-### O arquivo com as respostas do programa será criado na pasta "output" no diretório do arquivo.
+### 4- O arquivo com as respostas do programa será criado na pasta "output" no diretório do arquivo.
 
 # Enunciado do desafio
 

@@ -12,7 +12,7 @@ O algoritmo busca resolver o problema de atribuição , que consiste em encontra
 
 O principal propósito do algoritimo é melhorar a alocação de tarefas, otimizando o desempenho operacional. 
 
-### Implemetntação 
+### Implemetação 
 Este programa em C atribui tarefas a funcionários de forma a otimizar o tempo total de execução das tarefas. Ele lê uma matriz de tempos de um arquivo e utiliza um método guloso para designar cada tarefa ao funcionário mais eficiente disponível. O código aloca memória dinamicamente para listas e matrizes para armazenar os dados, garantindo que cada funcionário receba exatamente uma tarefa. Após o processamento de dados, o programa salva as atribuições e o tempo total em formato de arquivo txt com o nome escolhido pelo usuário. O programa gerencia a memória corretamente, evitando vazamentos, e fornece uma solução eficiente para o problema de alocação de tarefas.
 
 # Instruções para utilização do programa

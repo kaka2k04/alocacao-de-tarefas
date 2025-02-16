@@ -10,19 +10,12 @@ O algoritmo busca resolver o problema de atribuição , que consiste em encontra
 
 # Propósito e Aplicação
 
-O principal propósito do algoritimo é encontrar uma correspondência ótima entre duas partes de um problema, garantindo que a soma dos custos (ou a soma dos lucros, dependendo do contexto) seja minimizada (ou maximizada).
+O principal propósito do algoritimo é melhorar a alocação de tarefas, otimizando o desempenho operacional 
 
-Ele é amplamente usado em diversas áreas, como:
-
-Gerenciamento de tarefas (designação de funcionários para tarefas específicas)
-Otimização em logística (atribuição de entregas a veículos)
-Visão computacional (rastreamento de objetos em vídeos)
-Emparelhamento em machine learning (associação de previsões a dados reais)
-O algoritmo é conhecido por sua eficiência e roda em tempo polinomial, tornando-o adequado para problemas de grande escala
 ### Implemetntação 
-Este programa em C atribui tarefas a funcionários de forma a minimizar o tempo total de execução. Ele lê uma matriz de tempos de um arquivo e utiliza um método guloso para designar cada funcionário à tarefa mais rápida disponível. O código aloca dinamicamente listas e matrizes para armazenar os dados, garantindo que cada funcionário receba exatamente uma tarefa. Após a atribuição, exibe quais funcionários executam quais tarefas e calcula o tempo total gasto. O programa gerencia a memória corretamente, evitando vazamentos, e fornece uma solução eficiente para o problema de alocação de tarefas.
+Este programa em C atribui tarefas a funcionários de forma a otimizar o tempo total de execução. Ele lê uma matriz de tempos de um arquivo e utiliza um método guloso para designar cada tarefa ao funcionário mais eficiente disponível. O código aloca dinamicamente para listas e matrizes para armazenar os dados, garantindo que cada funcionário receba exatamente uma tarefa. Após o processamento de dados, o programa salva as atribuições e o tempo total em formato de arquivo txt com o nome escolhido pelo usuário. O programa gerencia a memória corretamente, evitando vazamentos, e fornece uma solução eficiente para o problema de alocação de tarefas.
 
-# Exemplo matematico em questão e sua aplicação
+# Enunciado do desafio
 
 Problema de Atribuição de Tarefas em uma Fábrica<br>
 
@@ -49,7 +42,6 @@ Matriz de Tempos:
 
 Cada valor na matriz representa o tempo que um funcionário leva para completar uma tarefa.
 
-## Requisitos para o codigo
 #### Algoritimo testado em:
 - Windows 11<b>
 ### Compilador 

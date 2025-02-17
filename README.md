@@ -17,7 +17,7 @@ Este programa em C atribui tarefas a funcionários de forma a otimizar o tempo t
 
 # Instruções para utilização do programa
 ### 1- O programa deve ser executado utilizando um compilador de linguagem C.
-### 2- O arquivo a ser processado deve ser adicionado a pasta "output" no diretório do arquivo.
+### 2- O arquivo a ser processado deve ser adicionado a pasta "output" no diretório do programa.
 ### 3- O arquivo do arquivo de entrada deve ser:
 
 Número de itens a serem atribuídos (n)
